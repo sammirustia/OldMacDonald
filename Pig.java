@@ -13,4 +13,6 @@ class Pig implements Animal
     	mySound = "oink";
     }
 
+    public String getSound() {return mySound;}
+    public String getType() {return myType;}
  }
